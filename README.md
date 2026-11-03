@@ -1,4 +1,22 @@
-# connections
+# Connections
+
+A small, self-contained Connections-style puzzle game. The game is plain HTML, CSS, and JavaScript, with no build step or dependencies to install.
+
+## Play
+
+Once GitHub Pages is enabled, play the game at [https://warner63mu-lab.github.io/connections/](https://warner63mu-lab.github.io/connections/).
+
+To preview it locally, open [`index.html`](index.html) in a browser. The game itself is in [`Connections.html`](Connections.html).
+
+## Publish with GitHub Pages
+
+1. Push the repository to GitHub.
+2. Open the repository's **Settings** tab and select **Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select the `main` branch and the `/(root)` folder, then save.
+5. After GitHub finishes publishing, visit the link in the **Play** section above.
+
+GitHub Pages serves the files directly; no build command or custom workflow is required. The root `index.html` forwards visitors to the game in `Connections.html`.
 <!DOCTYPE html>
 <html lang="en">
 <head>
